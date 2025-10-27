@@ -1,0 +1,17 @@
+.secundaryButton {
+    background: transparent;
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50px;
+    box-shadow: 3px 4px 7px 0px #000000;
+    cursor: pointer;
+    border: 2px solid var(--text-color);
+}
+
+.secundaryButton:hover {
+    background-color: var(--base-color);
+}
