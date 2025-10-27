@@ -71,38 +71,6 @@ Criar um site de gerenciamento de filmes com funcionalidades completas de CRUD, 
 
 ---
 
-## 🗂️ Estrutura do Projeto
-
-CineMax/
-│
-├── backend/
-│ ├── server.py
-│ ├── database/
-│ │ └── connection.py
-│ ├── routes/
-│ │ ├── filmes.py
-│ │ └── usuarios.py
-│ └── models/
-│ ├── filme_model.py
-│ └── usuario_model.py
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── services/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ └── index.html
-│
-├── README.md
-└── package.json
-
-yaml
-Copiar código
-
----
-
 ## 🧩 Requisitos para Rodar o Projeto
 
 ### 🔧 Back-End
