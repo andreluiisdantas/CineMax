@@ -114,4 +114,5 @@ Documentação técnica (seguindo modelo do Teams)
 Site funcional (CRUD completo, autenticação e interface finalizada)
 
 🏁 Status do Projeto
+
 🚧 Em desenvolvimento
