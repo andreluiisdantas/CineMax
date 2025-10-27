@@ -100,12 +100,12 @@ bash
 npm run dev
 Acesse em: http://localhost:5173
 
-🧑‍💻 Equipe de Desenvolvimento
-Nome	Função
+🧑‍💻 Equipe de Desenvolvimento:
+
 André Luis Sousa Dantas -	Desenvolvedor Full-Stack
 Prof. Mariany Morais	Orientadora
 
-📘 Entregáveis
+📘 Entregáveis:
 Figma (protótipo de média fidelidade)
 
 Documentação técnica (seguindo modelo do Teams)
