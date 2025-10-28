@@ -5,7 +5,7 @@
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    box-shadow: 3px 4px 7px 0px #000000;
+    box-shadow: 3px 10px 20px 5px rgba(40, 40, 40, 0.3);
 }
 
 .userButton i{

@@ -1,6 +1,36 @@
-.searchBarForm{
+.searchBarForm {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    background-color: rgba(206, 237, 248, 0.6);
+    padding: 14px 20px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    width: 600px;
+    box-shadow: 3px 10px 20px 5px rgba(40, 40, 40, 0.3);
+}
+
+.searchInput {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    flex: 1;
+    color: var(--base-color);
+    outline: none; 
+}
+
+.searchInput::placeholder {
+    color: var(--base-color);
+}
+
+.searchButton {
+    background-color: transparent;
+    border: none;
+    font-size: 20px; 
+    color: var(--base-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
