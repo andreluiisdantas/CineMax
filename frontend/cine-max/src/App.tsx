@@ -1,6 +1,6 @@
 import './App.css'
 import HomePage from './pages/Home/Home'
-import './Style/Global.css'
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
 

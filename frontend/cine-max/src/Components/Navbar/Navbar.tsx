@@ -2,8 +2,8 @@ import React from "react";
 import './Navbar.css'
 import MainButton from "../MainButton/MainButton";
 import SecundaryButton from "../SecundaryButton/SecundaryButton";
-import UserButton from "../UserButton/UserButton";
 import SearchBar from "../SeachBar/SearchBar";
+import CircleButton from "../CircleButton/CircleButton";
 
 const Navbar: React.FC = () => {
 
@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
                 <SearchBar placeholder="Buscar filmes..." onSearchSubmit={moviesSearch}/>
                 <SecundaryButton label="Contato"/>
                 <MainButton label="Cadastrar filme"/>
-                <UserButton/>
+                <CircleButton><i className="bi bi-person-fill"></i></CircleButton>
             </div>
         </div>
         
