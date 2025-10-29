@@ -4,6 +4,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import SecundaryButton from "../../Components/SecundaryButton/SecundaryButton";
 import MainButton from "../../Components/MainButton/MainButton";
 import TrailerCarousel from "../../Components/TrailerCarousel/TrailerCarousel";
+import MovieHighlights from "../../Components/MovieHighlights/MovieHighlights";
 
 
 const HomePage: React.FC = () => {
@@ -21,6 +22,7 @@ const HomePage: React.FC = () => {
                 </div>
             </div>
             <TrailerCarousel/>
+            <MovieHighlights/>
         </main>
     )
 };

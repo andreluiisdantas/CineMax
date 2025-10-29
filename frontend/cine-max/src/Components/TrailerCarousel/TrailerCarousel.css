@@ -71,3 +71,13 @@
   z-index: 10;
   cursor: pointer;
 }
+
+.slider-container .swiper-pagination-bullet {
+  background-color: var(--second-color);
+  opacity: 0.5;
+}
+
+.slider-container .swiper-pagination-bullet-active {
+  background-color: var(--secon);
+  opacity: 1;
+}
