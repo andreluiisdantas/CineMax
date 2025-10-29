@@ -1,14 +1,14 @@
 import './CircleButton.css'
 import React from 'react'
 
-type CircleButtonProps = {
+type CircleButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   children: React.ReactNode;
 }
 
-function CircleButton({ children }: CircleButtonProps){
-  return(
-    <button className="circleButton">
-        {children}
+function CircleButton({ children, className, ...rest }: CircleButtonProps) {
+  return (
+    <button className={`circleButton ${className || ''}`} {...rest}>
+      {children}
     </button>
   )
 }

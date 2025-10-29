@@ -3,6 +3,7 @@ import './Home.css'
 import Navbar from "../../Components/Navbar/Navbar";
 import SecundaryButton from "../../Components/SecundaryButton/SecundaryButton";
 import MainButton from "../../Components/MainButton/MainButton";
+import TrailerCarousel from "../../Components/TrailerCarousel/TrailerCarousel";
 
 
 const HomePage: React.FC = () => {
@@ -19,7 +20,7 @@ const HomePage: React.FC = () => {
                     <SecundaryButton label="Em alta"/>
                 </div>
             </div>
-            
+            <TrailerCarousel/>
         </main>
     )
 };
