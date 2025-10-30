@@ -1,0 +1,148 @@
+.movieHighlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.movieHighlights h1 {
+  font-family: var(--second-font);
+  color: var(--text-color);
+  font-size: 120px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.movieHighlightSlider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.movieSlide {
+  display: flex;
+  align-items: center;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.movieBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.movieBanner img {
+  width: 100%;
+}
+
+.movieInformations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  gap: 20px;
+}
+
+.movieInformations h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.movieInformations p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.movieInformations .sinopse {
+  margin-top: 1rem;
+}
+
+.trailerPrevButon {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.trailerNextButton {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.movieHighlightSlider .swiper-pagination-bullet {
+  background-color: var(--second-color);
+  opacity: 0.5;
+}
+
+.movieHighlightSlider .swiper-pagination-bullet-active {
+  background-color: var(--second-color);
+  opacity: 1;
+}
+
+.informationButtons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.informationButtons .button{
+  width: 50%;
+  background: none;
+  border: none;
+  font-size: 35px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.informationButtons .button:first-child {
+  text-align: left;
+}
+
+.informationButtons .button:last-child {
+  text-align: right;
+}
+
+.informationButtons .button.active{
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.informationButtons .button.active:hover{
+  color: var(--hover-color);
+  border-bottom: 3px solid var(--hover-color);
+}
+
+.informationButtons .button.inactive{
+  color: var(--text-color);
+  border-bottom: 3px solid var(--text-color);
+}
+
+.informationButtons .button.inactive:hover{
+  color: var(--hover-color);
+  border-bottom: 3px solid var(--hover-color);
+}
+
+.movieInformations .mainButton {
+  align-self: center;
+}

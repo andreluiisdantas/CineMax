@@ -1,3 +1,7 @@
+.sliderContainer{
+  position: relative;
+}
+
 .trailerSlide{
     display: flex;
 }
@@ -54,7 +58,7 @@
   display: none !important; 
 }
 
-.trailer-prev-button {
+.trailerPrevButon {
   position: absolute;
   top: 50%;
   left: 25px;
@@ -63,7 +67,7 @@
   cursor: pointer;
 }
 
-.trailer-next-button {
+.trailerNextButton {
   position: absolute;
   top: 50%;
   right: 25px;
@@ -72,12 +76,12 @@
   cursor: pointer;
 }
 
-.slider-container .swiper-pagination-bullet {
+.sliderContainer .swiper-pagination-bullet {
   background-color: var(--second-color);
   opacity: 0.5;
 }
 
-.slider-container .swiper-pagination-bullet-active {
+.sliderContainer .swiper-pagination-bullet-active {
   background-color: var(--secon);
   opacity: 1;
 }

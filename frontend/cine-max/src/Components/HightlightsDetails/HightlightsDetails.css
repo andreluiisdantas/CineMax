@@ -1,0 +1,17 @@
+.HightlightsDetails{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.HightlightsDetails h2{
+    font-family: var(--primary-font);
+    font-size: 35px;
+}
+
+.HightlightsDetails h3{
+    font-family: var(--primary-font);
+    font-size: 30px;
+    font-weight: 300;
+}

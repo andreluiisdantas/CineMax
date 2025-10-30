@@ -37,14 +37,14 @@ const TrailerCarousel: React.FC = () => {
     }
 
     return(
-      <div className="slider-container" style={{ position: 'relative' }}>
+      <div className="sliderContainer">
         <Swiper
           modules={[Navigation, Pagination]}
           spaceBetween={50}
           slidesPerView={1}
           navigation={{
-            prevEl: '.trailer-prev-button', 
-            nextEl: '.trailer-next-button', 
+            prevEl: '.trailerPrevButon', 
+            nextEl: '.trailerNextButton', 
           }}
           
           pagination={{ clickable: true }}
@@ -76,13 +76,8 @@ const TrailerCarousel: React.FC = () => {
           })}
         </Swiper>
 
-        <CircleButton className="trailer-prev-button">
-          <i className="bi bi-chevron-compact-left"></i>
-        </CircleButton>
-        <CircleButton className="trailer-next-button">
-          <i className="bi bi-chevron-compact-right"></i>
-        </CircleButton>
-
+        <CircleButton className="trailerPrevButon"><i className="bi bi-chevron-compact-left"></i></CircleButton>
+        <CircleButton className="trailerNextButton"><i className="bi bi-chevron-compact-right"></i></CircleButton>
       </div>
     );
 }; 
