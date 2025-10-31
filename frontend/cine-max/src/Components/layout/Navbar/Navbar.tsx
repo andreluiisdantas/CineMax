@@ -1,9 +1,9 @@
 import React from "react";
 import './Navbar.css'
-import MainButton from "../MainButton/MainButton";
-import SecundaryButton from "../SecundaryButton/SecundaryButton";
-import SearchBar from "../SeachBar/SearchBar";
-import CircleButton from "../CircleButton/CircleButton";
+import MainButton from "../../ui/MainButton/MainButton";
+import SecundaryButton from "../../ui/SecundaryButton/SecundaryButton";
+import SearchBar from "../../ui/SeachBar/SearchBar";
+import CircleButton from "../../ui/CircleButton/CircleButton";
 
 const Navbar: React.FC = () => {
 

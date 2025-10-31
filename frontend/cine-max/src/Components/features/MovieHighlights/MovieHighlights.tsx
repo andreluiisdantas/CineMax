@@ -5,9 +5,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './MovieHighlights.css';
-import CircleButton from '../CircleButton/CircleButton';
-import HightlightsDetails from '../HightlightsDetails/HightlightsDetails';
-import MainButton from '../MainButton/MainButton';
+import CircleButton from '../../ui/CircleButton/CircleButton';
+import HightlightsDetails from '../../ui/HightlightsDetails/HightlightsDetails';
+import MainButton from '../../ui/MainButton/MainButton';
 
 interface Movie {
   id: number;

@@ -1,10 +1,10 @@
 import React from "react";
 import './Home.css'
-import Navbar from "../../Components/Navbar/Navbar";
-import SecundaryButton from "../../Components/SecundaryButton/SecundaryButton";
-import MainButton from "../../Components/MainButton/MainButton";
-import TrailerCarousel from "../../Components/TrailerCarousel/TrailerCarousel";
-import MovieHighlights from "../../Components/MovieHighlights/MovieHighlights";
+import Navbar from "../../Components/layout/Navbar/Navbar";
+import SecundaryButton from "../../Components/ui/SecundaryButton/SecundaryButton";
+import MainButton from "../../Components/ui/MainButton/MainButton";
+import TrailerCarousel from "../../Components/features/TrailerCarousel/TrailerCarousel";
+import MovieHighlights from "../../Components/features/MovieHighlights/MovieHighlights";
 
 
 const HomePage: React.FC = () => {

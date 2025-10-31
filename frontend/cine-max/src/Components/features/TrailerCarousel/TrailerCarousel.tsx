@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './TrailerCarousel.css'
-import CircleButton from "../CircleButton/CircleButton";
+import CircleButton from "../../ui/CircleButton/CircleButton";
 
 interface Movie {
   id: number;
